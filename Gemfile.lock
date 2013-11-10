@@ -36,7 +36,7 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     connection_pool (1.1.0)
-    dashing-rails (2.0.2)
+    dashing-rails (2.1.1)
       coffee-script (~> 2.2)
       connection_pool (~> 1.1)
       jquery-rails (~> 3.0)
