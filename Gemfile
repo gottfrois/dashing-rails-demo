@@ -7,9 +7,13 @@ gem 'coffee-rails', '~> 4.0'
 gem 'jquery-rails'
 
 group :production do
+  gem 'pg'
   gem 'rails_12factor'
 end
 
-gem 'sqlite3'
+group :development do
+  gem 'sqlite3'
+end
+
 gem 'dashing-rails'
 gem 'puma'
